@@ -1,0 +1,218 @@
+{
+    "1": {
+        "price": "3200000",
+        "square_meters": "148",
+        "bedrooms": "3",
+        "bathrooms": "2",
+        "parking_spaces": "2",
+        "address": "Casa la Salle",
+        "description": "Tamaulipas Estado de Hidalgo"
+    },
+    "2": {
+        "price": "2570530",
+        "square_meters": "57",
+        "bedrooms": "2",
+        "bathrooms": "1",
+        "parking_spaces": "1",
+        "address": "Obrera",
+        "description": "Departamento en Preventa en Parque Central, Cuauht\u00e9moc, CDMX, 2 Rec\u00e1maras"
+    },
+    "3": {
+        "price": "1210100",
+        "square_meters": "105",
+        "bedrooms": "3",
+        "bathrooms": "1",
+        "parking_spaces": "2",
+        "address": "Lindavista Nte.",
+        "description": "LA MEJOR CASA AL MEJOR PRECIO"
+    },
+    "4": {
+        "price": "5936000",
+        "square_meters": "80",
+        "bedrooms": "3",
+        "bathrooms": "3",
+        "parking_spaces": "2",
+        "address": "H\u00e9roes de Padierna",
+        "description": "Casa en Preventa en Residencial Cumbres Ajusco, Tlalpan, CDMX, 3 Rec\u00e1maras"
+    },
+    "5": {
+        "price": "4250000",
+        "square_meters": "0",
+        "bedrooms": "2",
+        "bathrooms": "2",
+        "parking_spaces": "0",
+        "address": "Lomas de Santa Fe",
+        "description": "Departamento - Santa Fe Cuajimalpa"
+    },
+    "6": {
+        "price": "23000000",
+        "square_meters": "588",
+        "bedrooms": "4",
+        "bathrooms": "4+",
+        "parking_spaces": "0",
+        "address": "Contadero",
+        "description": "Casa en condominio - Contadero"
+    },
+    "7": {
+        "price": "2750000",
+        "square_meters": "0",
+        "bedrooms": "3",
+        "bathrooms": "3",
+        "parking_spaces": "0",
+        "address": "Fracc Club de Golf Bosques",
+        "description": "Departamento - Club de Golf Bosques"
+    },
+    "8": {
+        "price": "3000000",
+        "square_meters": "0",
+        "bedrooms": "2",
+        "bathrooms": "2",
+        "parking_spaces": "0",
+        "address": "Guerrero",
+        "description": "VENTA DEPARTAMENTO CENTRICO POR REFORMA"
+    },
+    "9": {
+        "price": "850000",
+        "square_meters": "0",
+        "bedrooms": "2",
+        "bathrooms": "1",
+        "parking_spaces": "1",
+        "address": "Zona Urbana Ejidal Santa Martha Acatitla Nte.",
+        "description": "VENDO SANTA MARTA ACATITLA USA TU CREDITO"
+    },
+    "10": {
+        "price": "7980000",
+        "square_meters": "0",
+        "bedrooms": "2",
+        "bathrooms": "2",
+        "parking_spaces": "0",
+        "address": "Lomas de Sta F\u00e9",
+        "description": "RESIDENCIAL INFINITY EN SANTA FE, SE VENDE DEPARTAMENTO"
+    },
+    "11": {
+        "price": "6785000",
+        "square_meters": "0",
+        "bedrooms": "3",
+        "bathrooms": "2",
+        "parking_spaces": "2",
+        "address": "Actipan",
+        "description": "DEPARTAMENTO EN VENTA O RENTA NUEVO COLONIA ACTIPAN"
+    },
+    "12": {
+        "price": "2900000",
+        "square_meters": "0",
+        "bedrooms": "2",
+        "bathrooms": "2",
+        "parking_spaces": "1",
+        "address": "Parque San Andr\u00e9s",
+        "description": "ZONA DE COYOACAN, DEPARTAMENTO EN VENTA"
+    },
+    "13": {
+        "price": "3690000",
+        "square_meters": "0",
+        "bedrooms": "2",
+        "bathrooms": "2",
+        "parking_spaces": "2",
+        "address": "Cd. de los Deportes",
+        "description": "DEPARTAMENTO  EN VENTA cerca NAPOLES, CIUDAD DE LOS DEPORTES"
+    },
+    "14": {
+        "price": "18000000",
+        "square_meters": "475",
+        "bedrooms": "4",
+        "bathrooms": "4+",
+        "parking_spaces": "4+",
+        "address": "Miguel Hidalgo Villa Ol\u00edmpica",
+        "description": "Residencia en Venta con excelente proyecto arquitect\u00f3nico"
+    },
+    "15": {
+        "price": "2700000",
+        "square_meters": "73",
+        "bedrooms": "2",
+        "bathrooms": "2",
+        "parking_spaces": "2",
+        "address": "La Preciosa",
+        "description": "Excelente Departamento en la Calle Centeotl en Azcapotzalco $ 2,700,000"
+    },
+    "16": {
+        "price": "52000000",
+        "square_meters": "0",
+        "bedrooms": "4",
+        "bathrooms": "4+",
+        "parking_spaces": "4+",
+        "address": "Bosque de las Lomas",
+        "description": "RESIDENCIA TOTALMENTE REMODELADA CON ALBERCA Y CINE EN BOSQUES DE LAS LOMAS $ 52M"
+    },
+    "17": {
+        "price": "13600000",
+        "square_meters": "0",
+        "bedrooms": "3",
+        "bathrooms": "3",
+        "parking_spaces": "3",
+        "address": "Lomas de Santa Fe",
+        "description": "Departamento en Venta en Santa Fe"
+    },
+    "18": {
+        "price": "3025000",
+        "square_meters": "0",
+        "bedrooms": "2",
+        "bathrooms": "2",
+        "parking_spaces": "2",
+        "address": "Refiner\u00eda 18 de Marzo",
+        "description": "DEPARTAMENTO VENTA A 20 MIN DE POLANCO OPORTUNIDAD ULTIMOS CON DESCUENTO"
+    },
+    "19": {
+        "price": "11450000",
+        "square_meters": "0",
+        "bedrooms": "2",
+        "bathrooms": "2",
+        "parking_spaces": "1",
+        "address": "Col del Valle Sur",
+        "description": "DEPARTAMENTO VENTA COL Del Valle"
+    },
+    "20": {
+        "price": "12480000",
+        "square_meters": "340",
+        "bedrooms": "4",
+        "bathrooms": "2",
+        "parking_spaces": "2",
+        "address": "Periodista",
+        "description": "Venta Hermosa Residencia en Col. Periodista"
+    },
+    "21": {
+        "price": "48000",
+        "square_meters": "213",
+        "bedrooms": "3",
+        "bathrooms": "3",
+        "parking_spaces": "2",
+        "address": "Col del Valle Centro",
+        "description": "RENTA PENTHAUSE COL DEL VALLE 3 RECAMARAS 2 ESTACIONAMIENTOS ROOF GARDEN PRIVADO"
+    },
+    "22": {
+        "price": "2850000",
+        "square_meters": "0",
+        "bedrooms": "2",
+        "bathrooms": "2",
+        "parking_spaces": "2",
+        "address": "San Lorenzo Tlaltenango",
+        "description": "VENTA DEPARTAMENTO URGE 15 MIN POLANCO 2 RECAMARAS 2 ESTACIONAMIENTOS"
+    },
+    "23": {
+        "price": "2500000",
+        "square_meters": "0",
+        "bedrooms": "3",
+        "bathrooms": "1",
+        "parking_spaces": "1",
+        "address": "Lomas de Sotelo",
+        "description": "DEPARTAMENTO VENTA LOMAS DE SOTELO A 5 MIN DE POLANCO 3 RECAMARAS"
+    },
+    "24": {
+        "price": [],
+        "square_meters": [],
+        "bedrooms": [],
+        "bathrooms": [],
+        "parking_spaces": [],
+        "address": [],
+        "description": []
+    }
+}
