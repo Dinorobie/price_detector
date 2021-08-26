@@ -26,8 +26,7 @@
       <!-- D3 -->
     <script src="https://d3js.org/d3.v5.min.js"></script>
 
-    <!-- Our CSS -->
-    <link rel="stylesheet" type="text/css" href="static/css/style.css"> 
+
 
 
   </head>
@@ -40,9 +39,8 @@
         <div class="container-fluid"> 
             <div class="collapse navbar-collapse" id="navbar20">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item"> <a class="nav-link" href="#">Home</a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="#">Contactus</a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="#">About</a> </li>
+                  <li class="nav-item"> <a class="nav-link" href="#">About</a> </li>
+                  <li class="nav-item"> <a class="nav-link" href="#">Contactus</a> </li>
                 </ul>
                 <p class="d-none d-md-block lead mb-0 text-white"> <i class="fa fa-heart-o"></i> <b>Predicting House Prices</b> </p>
                 <ul class="navbar-nav ml-auto">
@@ -51,6 +49,7 @@
             </div>
         </div>
       </nav>
+      
 
 
       <!--Intro-->
@@ -61,8 +60,11 @@
             <h4 class="text-danger">Find the price of the house of your dreams here!</h4> 
         </div>
       </div>
+      <div id="space"></div>
+
+
     
-      <!--Form selection-->
+      <!--Form selection for data submission-->
       <div class="container">
         <div class="row ">
           <div class="col-md-4">
@@ -72,6 +74,10 @@
                   <form onsubmit="runEnter()">
                     <div class="form-group">
                       <ul class="list-group" id="filters">
+                        <li class="filter list-group-item">
+                          <label for="date">Type</label>
+                          <input class="form-control" type="text" placeholder="casa/departamento">
+                        </li>
                         <li class="filter list-group-item">
                           <label for="date">Number of rooms</label>
                           <input class="form-control" type="text" placeholder="1">
@@ -99,63 +105,87 @@
                 </div>
               </div>
             </aside>
+            <div id="space"></div>
           </div>
 
-
+          <!--Prediction Result and Map--> 
           <div class="col-md-8">
             <div class="row ">
               <div class="col-md-12">
                 <div class="card">
-                  <div class="card-body text-left" >
+                  <div class="card-body text-center" >
                     <h2>Your dream house Price is:</h2> 
-                    <h2 class="text-danger">$</h2>
+                    <h2 class="text-danger">{{prediction}}</h2>
                   </div>
                 </div>
               </div>
               <div class="col-md-12">
                 <br>
-                <div class="card">
-                  <div class="card-body" > 
-                    <div id="map"></div>
-                  </div>
-                </div>                            
+                <div id="map"></div>                          
               </div>
             </div>
           </div>
-        
-        <!-- <div id="space"></div> -->
+      
+    
+          
+      <!--Graphs-->        
+      <div class="container-fluid">
+        <!--Form selection for houses/apartment-->
+        <div id="space"></div>
+        <div class="row ">
+          <div class="col-md-6" >
+            <div class="select">
+              <h5>Select:</h5>
+              <select id="selDataset"  style="width: 200px" > 
+                <option selected>Houses</option>
+                <option value="Apartments">Apartments</option>
+              </select>
+              <div id="space"></div>
+            </div>
+          </div>
+        </div>
 
         <div class="row ">
-          <br>
-          <div class="col-md-6" id="space">
-            <h2>Price vs bathrooms</h2> 
-            <h4 class="text-danger">graph 1</h4>
-          </div> 
-          <div class="col-md-6" id="space">
-            <h2>Price vs bathrooms</h2> 
-            <h4 class="text-danger">graph 2</h4>
-          </div>   
+          <div class="col-md-6" >
+            <div class="card">
+              <div class="card-body text-center" >  
+                <h3>Price vs Bathrooms</h3> 
+                <div id="bathrooms"></div>
+              </div>
+            </div> 
+          </div>
+          <div class="col-md-6" >
+            <div class="card">
+              <div class="card-body text-center" >  
+                <h3>Price vs Bedrooms</h3> 
+                <div id="bedrooms"></div>
+              </div>
+             </div>
+          </div>
         </div> 
-        
+
+        <div id="space"></div>
+
         <div class="row ">
-          <br>
-          <div class="col-md-6" id="space">
-            <h2>Price vs bathrooms</h2> 
-            <h4 class="text-danger">graph 3</h4>
-          </div> 
-          <div class="col-md-6" id="space">
-            <h2>Price vs bathrooms</h2> 
-            <h4 class="text-danger">graph 4</h4>
-          </div>   
-        </div> 
-        
+          <div class="col-md-6" >
+            <div class="card">
+              <div class="card-body text-center" >  
+                <h3>Price vs Parkinglots</h3> 
+                <div id="parkinglots"></div>
+              </div>
+            </div> 
+          </div>
+          <div class="col-md-6" >
+            <div class="card">
+              <div class="card-body text-center" >  
+                <h3>Price vs Distance to Subway</h3> 
+                <div id="distance"></div>
+              </div>
+             </div>
+          </div>
+        </div>
       </div>
 
-     <!-- <div class="col-md-8">
-        <h2>Your map is here</h2> 
-        <div id="map"></div>                        
-     </div> -->
-    
     </div>
 
 

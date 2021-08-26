@@ -12,18 +12,16 @@ body {
 
 
 #map{
-  height: 300px;
-  width: 790px;
+  height: 600px;
+  width: 720px;
 }
 
-#graph1{
-  height: 300px;
-  width: 790px;
-}
 
 #space {
-  margin-top: 100px;
-  height: 500px;
-  width: 790px;
-  border: 4px solid pink;
+  margin-top: 10px;
+  height: 10px;
+  /* border: 4px solid pink; */
 }
+
+
+
