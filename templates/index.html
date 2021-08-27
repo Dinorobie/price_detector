@@ -25,10 +25,7 @@
 
       <!-- D3 -->
     <script src="https://d3js.org/d3.v5.min.js"></script>
-
-
-
-
+    
   </head>
 
   <body>
@@ -53,11 +50,11 @@
 
 
       <!--Intro-->
-      <div class="card">
+      <div class="container">
         <div class="card-body text-center" > 
             <img src="https://cdn.iconscout.com/icon/free/png-256/house-1495589-1267760.png">
             <h2>Ready to buy a house?</h2>
-            <h4 class="text-danger">Find the price of the house of your dreams here!</h4> 
+            <h4 class="text-danger">Find the price of the house of your dreams!</h4> 
         </div>
       </div>
       <div id="space"></div>
@@ -71,32 +68,32 @@
             <aside class="filters">
               <div class="panel panel-default">
                 <div class="panel-body">
-                  <form onsubmit="runEnter()">
+                  <form action="{{ url_for("gfg")}}" method="post">
                     <div class="form-group">
                       <ul class="list-group" id="filters">
                         <li class="filter list-group-item">
-                          <label for="date">Type</label>
-                          <input class="form-control" type="text" placeholder="casa/departamento">
+                          <label>Type</label>
+                          <input class="form-control" type="text" placeholder="casa/departamento" name="type">
                         </li>
                         <li class="filter list-group-item">
-                          <label for="date">Number of rooms</label>
-                          <input class="form-control" type="text" placeholder="1">
+                          <label>Number of rooms</label>
+                          <input class="form-control" type="text" placeholder="1" name="nrooms">
                         </li>
                         <li class="filter list-group-item">
-                          <label for="date">Number of bathrooms</label>
-                          <input class="form-control" type="text" placeholder="1">
+                          <label>Number of bathrooms</label>
+                          <input class="form-control" type="text" placeholder="1" name="nbathrooms">
                         </li>
                         <li class="filter list-group-item">
-                          <label for="date">Square meters</label>
-                          <input class="form-control" type="text" placeholder="70">
+                          <label>Square meters</label>
+                          <input class="form-control" type="text" placeholder="70" name="totmeters">
                         </li>
                         <li class="filter list-group-item">
-                          <label for="date">Colonia</label>
-                          <input class="form-control" type="text" placeholder="Nápoles">
+                          <label>Colonia</label>
+                          <input class="form-control" type="text" placeholder="Nápoles" name="colonia">
                         </li> 
                         <li class="filter list-group-item">
-                          <label for="date">Alcaldia</label>
-                          <input class="form-control" type="text" placeholder="Benito Juárez">
+                          <label>Alcaldia</label>
+                          <input class="form-control" type="text" placeholder="Benito Juárez" name="alcaldia">
                         </li>   
                       </ul>
                     </div>
@@ -114,8 +111,8 @@
               <div class="col-md-12">
                 <div class="card">
                   <div class="card-body text-center" >
-                    <h2>Your dream house Price is:</h2> 
-                    <h2 class="text-danger">{{prediction}}</h2>
+                    <h2>Your square meter price is:</h2> 
+                    <h2 class="text-danger">{{ prediction }}</h2>
                   </div>
                 </div>
               </div>
@@ -202,14 +199,17 @@
     crossorigin=""></script>
   <!--D3-->
     <script src="https://d3js.org/d3.v5.min.js"></script>
- <!--Plotly-->
-  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <!--Plotly-->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <!-- API Key -->
     <script type="text/javascript" src="Static/js/config.js"></script>
   <!-- Our JavaScript -->
-  <script type="text/javascript" src="Static/js/logic.js"></script>
-    <!-- Our CSS -->
-  <link rel="stylesheet" type="text/css" href="Static/css/style.css">
+    <!-- <script type="text/javascript" src="Static/js/logic.js"></script> -->
+  <script type="text/javascript" src="{{ url_for('static', filename='js/logic.js')}}"></script>
+  <!-- Our CSS -->
+   <!-- <link rel="stylesheet" type="text/css" href="Static/css/style.css"> -->
+  <link rel="stylesheet" type="text/css" href= "{{ url_for('static', filename='css/style.css')}}">
+
     
    
   </body>
