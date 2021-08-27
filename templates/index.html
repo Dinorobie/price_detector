@@ -68,7 +68,7 @@
             <aside class="filters">
               <div class="panel panel-default">
                 <div class="panel-body">
-                  <form action="{{ url_for("gfg")}}" method="post">
+                  <form action="{{ url_for('gfg')}}" method="post">
                     <div class="form-group">
                       <ul class="list-group" id="filters">
                         <li class="filter list-group-item">
@@ -84,6 +84,10 @@
                           <input class="form-control" type="text" placeholder="1" name="nbathrooms">
                         </li>
                         <li class="filter list-group-item">
+                          <label>Number of parkinglots</label>
+                          <input class="form-control" type="text" placeholder="1" name="nparkings">
+                        </li>
+                        <li class="filter list-group-item">
                           <label>Square meters</label>
                           <input class="form-control" type="text" placeholder="70" name="totmeters">
                         </li>
@@ -93,7 +97,25 @@
                         </li> 
                         <li class="filter list-group-item">
                           <label>Alcaldia</label>
-                          <input class="form-control" type="text" placeholder="Benito Juárez" name="alcaldia">
+                          <input list="alcaldias" name="alcaldia">
+                          <datalist id="alcaldias">
+                            <option value="ALVARO OBREGON">
+                            <option value="AZCAPOTZALCO">
+                            <option value="BENITO JUAREZ">
+                            <option value="COYOACAN">
+                            <option value="CUAJIMALPA DE MORELOS">
+                            <option value="CUAUHTEMOC">
+                            <option value="GUSTAVO A. MADERO">
+                            <option value="IZTACALCO">
+                            <option value="IZTAPALAPA">
+                            <option value="LA MAGDALENA CONTRERAS">
+                            <option value="MIGUEL HIDALGO">
+                            <option value="MILPA ALTA">
+                            <option value="TLAHUAC">
+                            <option value="TLALPAN">
+                            <option value="VENUSTIANO CARRANZA">
+                            <option value="XOCHIMILCO">
+                          </datalist>
                         </li>   
                       </ul>
                     </div>
